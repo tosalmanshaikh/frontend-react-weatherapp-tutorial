@@ -1,3 +1,5 @@
+//not working - its says fetch data is not defined?
+
 // import React, {useEffect, useState} from 'react';
 // import axios from 'axios';
 // import SearchBar from './components/searchBar/SearchBar';
@@ -6,7 +8,7 @@
 // import './App.css';
 // import ForecastTab from "./pages/forecastTab/ForecastTab";
 //
-// const apiKey = '538d3dc63a845af3651f09cf2b4aa04f';
+// const apiKey = '';
 //
 // function App() {
 //
@@ -77,7 +79,7 @@
 // }
 //
 // export default App;
-
+//
 
 
 //1. Check weatherData before it renders
@@ -89,7 +91,7 @@
 // import MetricSlider from './components/metricSlider/MetricSlider';
 // import './App.css';
 //
-// const apiKey = '538d3dc63a845af3651f09cf2b4aa04f';
+// const apiKey = '';
 //
 // function App() {
 //   const [weatherData, setWeatherData] = useState({});
@@ -144,9 +146,9 @@
 // export default App;
 
 
-//2. Passed setLocation as callback prop to SearchBar
+// 2. Passed setLocation as callback prop to SearchBar
 
-//
+
 // import React, { useState } from 'react';
 // import axios from 'axios';
 // import SearchBar from './components/searchBar/SearchBar';
@@ -154,7 +156,7 @@
 // import MetricSlider from './components/metricSlider/MetricSlider';
 // import './App.css';
 //
-// const apiKey = '538d3dc63a845af3651f09cf2b4aa04f';
+// const apiKey = '';
 //
 // function App() {
 //   const [weatherData, setWeatherData] = useState({});
@@ -212,7 +214,7 @@
 
 //3. Make request end point dynamic
 
-//
+
 // import React, { useState, useEffect } from 'react';
 // import axios from 'axios';
 // import SearchBar from './components/searchBar/SearchBar';
@@ -220,7 +222,7 @@
 // import MetricSlider from './components/metricSlider/MetricSlider';
 // import './App.css';
 //
-// const apiKey = '538d3dc63a845af3651f09cf2b4aa04f';
+// const apiKey = '';
 //
 // function App() {
 //   const [weatherData, setWeatherData] = useState({});
@@ -277,7 +279,7 @@
 // }
 //
 // export default App;
-
+//
 
 
 //4. Pass coordinates to ForecastTab
@@ -291,7 +293,7 @@
 // import ForecastTab from './pages/forecastTab/ForecastTab';
 // import './App.css';
 //
-// const apiKey = '538d3dc63a845af3651f09cf2b4aa04f';
+// const apiKey = '';
 //
 // function App() {
 //   const [weatherData, setWeatherData] = useState({});
@@ -363,7 +365,7 @@
 // import ForecastTab from './pages/forecastTab/ForecastTab';
 // import './App.css';
 //
-// const apiKey = '538d3dc63a845af3651f09cf2b4aa04f';
+// const apiKey = '';
 //
 // function App() {
 //     const [weatherData, setWeatherData] = useState({});
@@ -448,7 +450,7 @@
 // import TodayTab from './pages/todayTab/TodayTab';
 // import './App.css';
 //
-// const apiKey = 'plaats jouw unieke API key hier';
+// const apiKey = '';
 //
 // function App() {
 //     const [weatherData, setWeatherData] = useState({});
@@ -542,7 +544,7 @@
 // import kelvinToCelsius from './helpers/kelvinToCelsius';
 // import './App.css';
 //
-// const apiKey = '538d3dc63a845af3651f09cf2b4aa04f';
+// const apiKey = '';
 //
 // function App() {
 //     const [weatherData, setWeatherData] = useState({});
@@ -638,7 +640,7 @@ import TodayTab from './pages/todayTab/TodayTab';
 import { TempContext } from './context/TempContext';
 import './App.css';
 
-const apiKey = '538d3dc63a845af3651f09cf2b4aa04f';
+const apiKey = '';
 
 function App() {
     const [weatherData, setWeatherData] = useState({});
